@@ -61,3 +61,6 @@ def CatchUsbVideo(window_name, camera_idx,catch_pic_num, path_name):
 
 def start():
     CatchUsbVideo("get_face_location", 0,1000, './data/other')
+
+if __name__ == "__main__":
+    start()
